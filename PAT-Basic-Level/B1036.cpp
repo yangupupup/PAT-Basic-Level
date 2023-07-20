@@ -24,7 +24,7 @@ int main(){
         row = N / 2 + 1;
     }
 
-    // 第0～row行
+    // 第2～row-1行
     for (int i = 0; i < row-2; ++i) {
         for (int j = 1; j <= N; ++j) {
             if (j == 1 || j == N){
